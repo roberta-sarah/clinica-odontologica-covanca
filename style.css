@@ -210,6 +210,7 @@ h3 { font-size: 1.15rem; font-weight: 600; }
   opacity: 1;
   transform: translateY(0);
 }
+.hero__media.reveal { transition-delay: 0.2s; }
 
 /* 4. HEADER & NAVEGAÇÃO =================================== */
 .header {
@@ -716,6 +717,11 @@ padding-top: 5%;
   .clinic__visual { order: -1; }
   .highlights__grid { grid-template-columns: repeat(2, 1fr); }
   .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 901px) {
+  .nav { flex: 1; justify-content: space-between; margin-left: var(--space-lg); }
+  .nav__list { flex: 1; justify-content: center; }
 }
 
 @media (max-width: 900px) {

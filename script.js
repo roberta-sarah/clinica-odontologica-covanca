@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* 4. ANIMAÇÕES DE ENTRADA --------------------------------- */
   const revealTargets = document.querySelectorAll(
-    '.section__head, .card, .highlight, .team__card, .clinic__content, .clinic__visual, .dentist__content, .dentist__media, .contact__info, .contact__map, .instagram__inner'
+    '.hero__content, .hero__media, .section__head, .card, .highlight, .team__card, .clinic__content, .clinic__visual, .dentist__content, .dentist__media, .contact__info, .contact__map, .instagram__inner'
   );
 
   revealTargets.forEach((el) => el.classList.add('reveal'));
