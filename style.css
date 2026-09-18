@@ -494,7 +494,9 @@ h3 { font-size: 1.15rem; font-weight: 600; }
 }
 
 /* 8. TRATAMENTOS ============================================ */
-.treatments { padding-top: var(--space-lg); padding-bottom: var(--space-lg); }
+.treatments { padding-top: var(--space-lg); padding-bottom: var(--space-lg); 
+padding-top: 5%;
+}
 
 .cards {
   display: grid;
