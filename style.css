@@ -42,7 +42,9 @@ button { font: inherit; border: none; background: none; cursor: pointer; }
   --color-muted: #7a8494;
 
   --color-bg: #ffffff;
-  --color-bg-alt: #f7f8fa;
+  --color-bg-alt: #eef4fb;
+  --color-sky: #e2eefa;
+  --color-blush: #fcf0f2;
   --color-border: #e6e9ed;
 
   --color-white: #ffffff;
@@ -308,7 +310,7 @@ h3 { font-size: 1.15rem; font-weight: 600; }
 /* 5. HERO ================================================== */
 .hero {
   padding: var(--space-xl) 0;
-  background: linear-gradient(160deg, var(--color-bg-alt) 0%, var(--color-white) 55%);
+  background: var(--color-white);
   overflow: hidden;
 }
 
@@ -495,7 +497,7 @@ h3 { font-size: 1.15rem; font-weight: 600; }
 }
 
 /* 8. TRATAMENTOS ============================================ */
-.treatments { padding-top: var(--space-lg); padding-bottom: var(--space-lg); 
+.treatments { background: linear-gradient(180deg, var(--color-white) 0%, var(--color-blush) 45%, var(--color-white) 100%); padding-top: var(--space-lg); padding-bottom: var(--space-lg);
 padding-top: 5%;
 }
 
@@ -592,7 +594,7 @@ padding-top: 5%;
 .team__placeholder-text { font-size: 0.9rem; }
 
 /* 10. DIFERENCIAIS =========================================== */
-.highlights { background: var(--color-bg-alt); padding-top: var(--space-lg); }
+.highlights { background: linear-gradient(180deg, var(--color-bg-alt) 0%, var(--color-blush) 100%); padding-top: var(--space-lg); }
 .highlights .section__head { margin-bottom: var(--space-lg); }
 
 .highlights__grid {
@@ -632,7 +634,7 @@ padding-top: 5%;
 .cta .btn--ghost:hover { border-color: var(--color-white); background: rgba(255, 255, 255, 0.1); }
 
 /* 12. CONTATO ================================================ */
-.contact { background: linear-gradient(180deg, var(--color-white) 0%, var(--color-bg-alt) 100%); }
+.contact { background: linear-gradient(180deg, var(--color-blush) 0%, var(--color-sky) 100%); }
 
 .contact__grid {
   display: flex;
